@@ -32,10 +32,10 @@ document.addEventListener('DOMContentLoaded', function () {
         clear();
       } else if (command === 'cat help.md') {
         outputDiv.innerHTML += '<p>Commands:</p>';
-        outputDiv.innerHTML += '<p>- cat aboutme.md: Displays my about me! .</p>';
-        // outputDiv.innerHTML += '<p>- cat projects.md: Shows my projects!.</p>';
-        outputDiv.innerHTML += '<p>- cat contact.md: You can contact me here!.</p>';
-        outputDiv.innerHTML += `<p>- clear : Clears the terminal output.</p>`;
+        outputDiv.innerHTML += '<p>-cat aboutme.md: Displays my about me!</p>';
+        // outputDiv.innerHTML += '<p>-cat projects.md: Shows my projects!</p>';
+        outputDiv.innerHTML += '<p>-cat contact.md: You can contact me here!</p>';
+        outputDiv.innerHTML += `<p>-clear: Clears the terminal output.</p>`;
       } else {
         outputDiv.innerHTML += '<p>Invalid command!</p>';
       }
