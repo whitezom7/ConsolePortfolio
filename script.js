@@ -46,15 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
       outputDiv.scrollTop = outputDiv.scrollHeight;
     }
   
-    function changeUser() {
-      var newUsername = prompt('Enter a new username:');
-      if (newUsername) {
-        username = newUsername;
-        usernameElement.textContent = username;
-        outputDiv.innerHTML += '<p>User changed to: ' + username + '</p>';
-      }
-    }
-  });
   
 
   function loadMarkdownFile(filename, targetId) {
@@ -84,3 +75,4 @@ document.addEventListener('DOMContentLoaded', function () {
     const outputDiv = document.getElementById('output');
     outputDiv.innerHTML += `${message}<br>`;
   }
+})
