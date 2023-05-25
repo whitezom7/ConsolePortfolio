@@ -28,6 +28,7 @@ html * {
   
   #input-line {
     display: flex;
+    color: green;
   }
   
   #input-line span {
