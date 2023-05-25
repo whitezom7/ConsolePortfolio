@@ -24,9 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
       // Process the command
       if (command === 'cat aboutme.md') {
         outputDiv.innerHTML += loadMarkdownFile(`Markdowns/aboutme.md`, `output`);
-    
      // } else if (command === 'cat projects.md') {
-        outputDiv.innerHTML += loadMarkdownFile(`Markdowns/projects.md`, `output`);
+        //outputDiv.innerHTML += loadMarkdownFile(`Markdowns/projects.md`, `output`);
     } else if (command === 'cat contact.md') {
         outputDiv.innerHTML += loadMarkdownFile(`Markdowns/contact.md`, `output`);
     } else if (command === 'clear') {
@@ -36,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
         outputDiv.innerHTML += '<p>- cat aboutme.md: Displays my about me! .</p>';
         // outputDiv.innerHTML += '<p>- cat projects.md: Shows my projects!.</p>';
         outputDiv.innerHTML += '<p>- cat contact.md: You can contact me here!.</p>';
-        
         outputDiv.innerHTML += `<p>- clear : Clears the terminal output.</p>`;
       } else {
         outputDiv.innerHTML += '<p>Invalid command!</p>';
