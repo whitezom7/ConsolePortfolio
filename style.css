@@ -25,6 +25,11 @@ html * {
     height: 100%;
     overflow-y: auto;
   }
+
+  #output {
+    padding-right: 5%;
+    padding-left: 1%;
+  }
   
   #input-line {
     display: flex;
