@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Scroll to the bottom of the terminal
-    outputDiv.scrollTop = outputDiv.scrollHeight;
+    window.scrollTo(0, document.body.scrollHeight);
   }
 
   function loadMarkdownFile(filename, targetId) {
@@ -80,7 +80,7 @@ function showHelp() {
   helpContent += '<p>- cat about.md: Displays information about me!</p>';
   helpContent += '<p>- cat contact.md: You can contact me here!</p>';
   helpContent += '<p>- clear: Clears the terminal output!</p>';
-  helpContent += '<p>- cat : displays a ascii cat image</p>';
+  helpContent += '<p>- cat: displays a ascii cat image</p>';
   helpContent += '<h2>- Suggest more terminal commands on my <a href="https://github.com/whitezom7/ConsolePortfolio" target="none">github</a></h2>';
 
   // Append the help content to the outputDiv
