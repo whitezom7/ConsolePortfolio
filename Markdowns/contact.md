@@ -9,7 +9,7 @@ I am currently actively seeking new opportunities and open to job offers. If you
 
 ## Contact Information
 
-- **Email**: [contact@whitewood.dev](mailto:contact@whitewood.dev)
+- **Email**: [contact@whitezom.dev](mailto:contact@whitezom.dev)
 - **Phone**: [+44 07908024259](tel:+447908024259)
 - **Location**: Heerlen, Limburg, The Netherlands
 
